@@ -1,0 +1,38 @@
+body {
+background-color: wheat; 
+text-align: justify;
+}
+h1 {
+    color:black; 
+    text-align: center;
+    
+}
+
+#arte {
+    color: black; 
+    text-align: justify;
+}
+
+h2 {
+    text-align: justify; 
+    color:black;
+}
+
+#corpo {
+  text-align: justify;
+}
+
+.faixas {
+ background-color:bisque;
+  color: black;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+h6 {
+    text-align: justify; 
+    color: black;
+font-size: 150%;
+}
