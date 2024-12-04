@@ -1,0 +1,103 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+/* Caixa do formulário */
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
+
+/* Estilo dos labels */
+.form-container label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Estilo dos inputs, selects, e textarea */
+.form-container input,
+.form-container select,
+.form-container textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Ajuste dos tipos de input radio e checkbox */
+.form-container input[type="radio"],
+.form-container input[type="checkbox"] {
+    width: auto;
+}
+
+/* Margem para as seções */
+.form-container .form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilo do botão */
+.form-container button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #218838;
+}
+
+/* Estilo do link */
+.form-container a {
+    color: #007bff;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo dos termos e condições */
+.form-container .terms {
+    font-size: 12px;
+    color: #666;
+}
+
+/* Agrupamento de inputs radio */
+.form-container .form-group-radio {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container .form-group-radio label {
+    margin-left: 20px;
+}
