@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.float-box {
+    float: right;
+    margin: 10px;
+    border: 3px solid #333;
+    padding: 5px;
+    background: #fff;
+}
+
+.float-box img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
